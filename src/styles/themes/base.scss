@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// box-shadow
+$box-shadow-1: 0 0 4px rgba(0,0,0,0.20);
+
+//border
+$border-1: 1px solid #CCCCCC;
+
+//font
+$font-family: 'Open Sans', sans-serif;
+$font-size-1: 14px;
+$font-size-2: 10px;
+
+//line-height
+$line-height-1: 30px;
+$line-height-2: 16px;
+$line-height-3: 14px;
+
+// colors
+$color-1: rgb(0, 93, 166);
+$color-2: rgb(242, 242, 242);
+$color-3: rgb(251, 251, 251);
+$color-4: rgb(255, 255, 255);
+$color-5: rgb(33, 33, 33);
+$color-6: rgb(153, 153, 153);
+$color-7: rgb(102, 102, 102);
+
+// app
+$app-color: rgb(251, 251, 251);
+
+// header
+$header-color: $color-1;
+$header-height: 40px;
+$header-title-height: 30px;
+$header-title-color: $color-4;
+$header-title-font-family: $font-family;
+$header-title-font-size: 18px;
+$header-title-padding: 5px 15px;
+
+// container
+
+// side-bar
+$sidebar-background-color: $color-2;
+$sidebar-width: 300px;
+$sidebar-height: 100%;
+$sidebar-border: $border-1;
+$sidebar-font-family: $font-family;
+$sidebar-font-size: $font-size-1;
+$sidebar-color: $color-5;
+$sidebar-line-height: $line-height-1;
+$sidebar-text-overflow: ellipsis;
+$sidebar-padding: 10px 15px;
+
+// content
+$content-color: $color-3;
+$content-border: $border-1;
+$content-border-spacing: 15px;
+$content-width: calc(100% - 303px);
+$content-width: 100%;
+$content-top: 0;
+$content-bottom: 0;
+$content-left: 302px;
+
+// card
+$card-color: $color-4;
+$card-width: 100%;
+$card-height: 100px;
+$card-margin: 10px 0 10px 0;
+$card-padding: 15px;
+$card-border: 1px solid transparent;
+$card-border-radius: 2px;
+$card-box-shadow: $box-shadow-1;
+$card-font-family: $font-family;
+
+//card children
+$card-line-height-big: $line-height-2;
+$card-line-height-small: $line-height-3;
+$card-line-font-big: $font-size-1;
+$card-line-font-small: $font-size-2;
+$card-title-color: $color-5;
+$card-title-padding: 10px;
+$card-group-color: $color-6;
+$card-group-padding: 5px;
+$card-owner-color: $color-7;

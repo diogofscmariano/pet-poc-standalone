@@ -1,0 +1,15 @@
+.content {
+  position: absolute;
+  background-color: $content-color;
+  border-right: $content-border;
+  border-spacing: $content-border-spacing;
+  width: $content-width;
+  top: $content-top;
+  bottom: $content-bottom;
+  left: $content-left;
+  height: 100%;
+}
+
+.content.container-fluid {
+  margin: 0;
+}

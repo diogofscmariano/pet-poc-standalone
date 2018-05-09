@@ -1,0 +1,32 @@
+.card {
+  display: inline-block;
+  background-color: $card-color;
+  border: $card-border;
+  border-radius: $card-border-radius;
+  box-shadow: $card-box-shadow;
+  padding: $card-padding;
+  margin: $card-margin;
+  height: $card-height;
+  width: $card-width;
+  font-family: $card-font-family;
+
+  .card-title {
+    font-size: $card-line-font-big;
+    line-height: $card-line-height-big;
+    color: $card-title-color;
+    padding-bottom: $card-title-padding;
+  }
+
+  .card-group {
+    font-size: $card-line-font-small;
+    line-height: $card-line-height-small;
+    color: $card-group-color;
+    padding-bottom: $card-group-padding;
+  }
+
+  .card-owner {
+    font-size: $card-line-font-small;
+    line-height: $card-line-height-small;
+    color: $card-owner-color;
+  }
+}

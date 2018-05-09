@@ -1,0 +1,17 @@
+.side-bar {
+  background-color: $sidebar-background-color;
+  border-right: $sidebar-border;
+  width: $sidebar-width;
+  position: absolute;
+  height: $sidebar-height;
+
+  .side-bar-header{
+    border-bottom: $sidebar-border;
+    font-family: $sidebar-font-family;
+    font-size: $sidebar-font-size;
+    color: $sidebar-color;
+    line-height: $sidebar-line-height;
+    padding: $sidebar-padding;
+    text-overflow: $sidebar-text-overflow;
+  }
+}

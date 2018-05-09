@@ -1,0 +1,13 @@
+.header {
+  height: $header-height;
+  background-color: $header-color;
+
+  .header-title {
+    color: $header-title-color;
+    font-family: $header-title-font-family;
+    font-size: $header-title-font-size;
+    line-height: $header-title-height;
+    padding: $header-title-padding;
+    width: calc(100% - 300px);
+  }
+}
